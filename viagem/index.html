@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"> Home</a></li>
+            <li>PAM</li>
+            <li>Vitor Samuel Miranda de Souza</li>
+        </ul>
+    </nav>
+    <footer>
+        <div class="form">
+        <label for="diaria"id="campodiaria">Valor da diária:</label>
+        <input type="number" id="diaria" min="1" step="0.01" name="diaria"  placeholder="R$">
+        </div>
+
+        <div class="form">
+        <label for="dias" id="campodias">Quantidade de dias:</label>
+        <input type="number" id="dias" name="dias"min="1" placeholder="0">
+        </div>
+
+        <div class="form">
+        <label for="combustivel"id="campocombustivel">Preço do combustível:</label>
+        <input type="number" id="combustivel" name="combustivel" min="1" step="0.01" placeholder="Por litro">
+        </div>
+
+        <div class="form">
+        <label for="consumo"id="campoconsumo">Consumo médio:</label>
+        <input type="number" id="consumo" name="consumo" min="1" step="0.01" placeholder="KM/L">
+        </div>
+
+        <div class="form">
+        <label for="distancia"id="campodistancia">Distancia:</label>
+        <input type="number" id="distancia" name="distancia" min="1" placeholder="KM">
+        </div>
+        <button type="submit" id="btncalcular">Calcular</button>
+    </footer>
+</body>
+<script src="js/calculo.js"></script>
+</html>

@@ -1,0 +1,71 @@
+*{
+    --azul:rgb(35, 137, 201);
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(../imagens/pexels_viagem.jpg);    
+    background-size: cover; 
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer{
+    background: white;
+    min-height: 15vh;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: var(--azul);
+    font-size: 12px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    flex: 1;
+}
+input{
+    border: 1px solid var(--azul);
+    border-radius: 2px;
+    opacity: 0.6;
+    color: var(--azul);
+    padding: 5px;
+    width:85%;
+}
+#btncalcular{
+    border: none;
+    color: white;
+    border-radius: 2px;
+    background: var(--azul);
+    padding: 5px;
+    width: 150px;
+    margin: 15px 10px 0 10px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li{
+    padding: 5px;
+    margin: 10px;
+}
+nav ul li:last-child{
+    border: 1px solid white;
+}
